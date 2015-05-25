@@ -22,11 +22,11 @@ Gem::Specification.new do |s|
   s.homepage               = 'https://github.com/sensu-plugins/sensu-plugins-erlang'
   s.license                = 'MIT'
   s.metadata               = { 'maintainer'         => '',
-                               'development_status' => 'active',
+                               'development_status' => 'unmaintained',
                                'production_status'  => 'unstable - testing recommended',
                                'release_draft'      => 'false',
                                'release_prerelease' => 'false'
-                              }
+  }
   s.name                   = 'sensu-plugins-erlang'
   s.platform               = Gem::Platform::RUBY
   s.post_install_message   = 'You can use the embedded Ruby by setting EMBEDDED_RUBY=true in /etc/default/sensu'
@@ -36,8 +36,6 @@ Gem::Specification.new do |s|
   s.summary                = 'Sensu plugins for erlang'
   s.test_files             = s.files.grep(%r{^(test|spec|features)/})
   s.version                = SensuPluginsErlang::Version::VER_STRING
-
-  s.add_runtime_dependency 'sensu-plugin', '1.1.0'
 
   s.add_development_dependency 'codeclimate-test-reporter', '~> 0.4'
   s.add_development_dependency 'rubocop',                   '~> 0.30'
