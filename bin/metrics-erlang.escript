@@ -1,5 +1,6 @@
 #!/usr/bin/env escript
 %% -*- erlang -*-
+%%! -nocookie
 %%
 %% Simple (and mostly naive) script that connects to a remote Erlang node,
 %% fetches memory and process statistics and prints them in a Sensu compatible way
