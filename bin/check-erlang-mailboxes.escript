@@ -1,5 +1,6 @@
 #!/usr/bin/env escript
 %% -*- erlang -*-
+%%! -nocookie
 %%
 %% Simple (and mostly naive) script that connects to a remote Erlang node,
 %% and checks process mailboxes, printing them in a Sensu compatible way
