@@ -1,6 +1,6 @@
 ## Sensu-Plugins-erlang
 
-[ ![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-erlang.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-erlang)
+[![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-erlang.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-erlang)
 [![Gem Version](https://badge.fury.io/rb/sensu-plugins-erlang.svg)](http://badge.fury.io/rb/sensu-plugins-erlang)
 [![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-erlang/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-erlang)
 [![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-erlang/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-erlang)
